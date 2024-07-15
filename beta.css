@@ -1,0 +1,165 @@
+.img {
+    height: 520px;
+    width: 1400px;
+}
+.head{
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+}
+header{
+    background-color: rgb(215, 217, 219);
+    height: 2100px;
+}
+.img2{
+    padding-top: 1px;
+    background-color: azure;
+}
+.nav2{
+    padding-top:  0xp;
+    color: black;
+    background-color: rgb(200, 190, 190);
+    width: 290px;
+    margin-left: 252px;
+    border-radius: 5px; 
+    margin-top: 190px;
+}
+ul{
+    background-color: white;
+    padding: 20px;
+    list-style-type: none;
+}
+.nav2 li img{
+    margin-top: 2px;
+    bottom: 8px;
+    width: 52px;
+    height: 52px;
+}
+.nav3{
+    background-color: white;
+    color: black;
+    width: 290px;
+    height: 250px;
+    margin-left: 252px;
+    border-radius: 5px ;
+    list-style-type: none; 
+}
+.nav3 img{
+    font-size: 16px;
+}
+.nav3 li {
+    background-color: white;
+}
+.button button{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 238px;
+    border-style: none;
+    font-size: 18px;
+    font-style: normal;
+    box-shadow: 0 0 15px -5px darkviolet;
+    transition: all 180ms linear;
+    /* transition: all ease-in-out 0.2s; */
+}
+.button{
+    margin-left: 446px;
+}
+#az{
+    font-size: 20px;
+    position: relative;
+    margin: 25px;
+    margin-top: 4px;
+}
+
+aside{
+    position: absolute;
+    top: 650px;
+    right:0px;
+    width: 980px;
+    height: 1300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right: 245px;
+    border: 1px solid #ddd;
+    display: flex;
+    text-align: left;
+    background-color: blanchedalmond;
+}
+.aside h4 {
+    margin-top: 0;
+}
+
+.aside img {
+    margin-top: 200px;
+
+}
+h5{
+    font-family: "Gill Sans", sans-serif;
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    width: 260px; /* Uzunluğu ayarlayın */
+    margin-left: 20px;
+}
+
+.container button{
+    text-align: right;
+    display: flex;
+}
+.container img{
+    padding: 8px;
+    padding-bottom: 20px;
+    margin: 4px;
+    width: 80px;
+    height: 120ox;
+    padding-top: 2px;
+}
+.container span{
+    text-align: right;
+    display: flex;
+}
+
+
+.container2 {
+    position: relative;
+    display: inline-block; /* Resim ve overlay'i yan yana getirmek için */
+}
+
+.overlay {
+    /* position: relative; */
+    background-color:white; /* Arkaplan rengini ayarlayın */
+    text-align: center;
+    width: 290px;
+    height: 480px;
+    border-radius: 5px;
+}
+.left-container{
+    padding-top: 2px;
+    margin-left: 252px;
+    position: absolute;
+    bottom:195px;
+    background-color: white;
+    border-color: black;
+}
+.button button:hover{
+    background-color: gray;
+    border-color: red;
+}
+.button button:active{
+    background-color: green;
+}
+.button button:focus{
+    background-color: brown;
+}
+.button button:disabled{
+    background-color: aquamarine;
+}
